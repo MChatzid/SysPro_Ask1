@@ -1,6 +1,6 @@
-OBJS = interface.o cdr.o hashttable.o maxheap.o
-SOURCE = interface.cpp cdr.cpp hashttable.cpp maxheap.cpp
-HEADER = cdr.h hashttable.h maxheap.h
+OBJS = interface.o cdr.o types.o
+SOURCE = interface.cpp cdr.cpp types.cpp
+HEADER = cdr.h types.h
 
  OUT = werhauz
   CC = g++

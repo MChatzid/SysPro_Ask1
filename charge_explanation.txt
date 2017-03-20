@@ -1,0 +1,6 @@
+type  tarrif   cost
+0  0  0.1 (fixed)
+1  1  0.5 (per minute)
+1  2  1 (per minute)
+2  1  0.2 (per minute)
+2  2  0.5 (per minute)

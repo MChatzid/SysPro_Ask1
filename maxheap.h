@@ -12,6 +12,11 @@ public:
    TreeNode(int ID);
    ~TreeNode();
 
+   int getID();
+   double getTotal();
+   TreeNode getLchild();
+   TreeNode getRchild();
+   
    addToTotal(double amount);
 }
 
